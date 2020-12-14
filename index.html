@@ -1,0 +1,84 @@
+# 1. Name at least three of the primitive data types in Javascript.
+
+primitive data type: data that is not an object and has no methods
+6 primitive data types: strings, numbers, bigint, boolean, undefined, symbol
+string type: used to represent textual data; a set of elements of 16-bit unsigned integer values
+numbers, bigint: the two built-in numeric types are Number and bigint
+boolean: represents a logical entity and can have two values of true and false 
+undefined: a variable that has not been assigned a values
+symbol: a unique and immutable primitive value and may be used as the key of an Object property
+
+# 2. Name one non-primitive data type.
+
+mutable data types or objects: the value of an object can be changed after it gets created
+
+# 3. What is the difference between a function parameter and a function argument?
+
+Function parameters are the names listed in the function's definition while the function arguments are the real values passed to the function; parameters are initialized to the values of the arguments supplied 
+
+# 4. Write at least 3 of the comparison operators in Javascript.
+
+===, >, <=
+
+# 5. Name 3 keywords that can be used to declare a variable.
+
+const
+let
+var 
+
+# 6. Create an array called `myArray`.
+
+const myArray = []; 
+
+# 7. Create an object called `myObject`.
+
+const myObject = {};
+
+# 8. Write two functions: one using the `fat arrow` syntax and one using the `function` keyword syntax.
+
+const func1 = () => {}; 
+const func2 = function() {}
+
+# 9. Write a function that returns the number 5.
+
+const function = () => {
+    return 5;
+}
+
+# 10. Write a function that takes two numbers and returns the sum of them.
+
+const func = (num1, num2) => {
+    return num1 + num2;
+}
+
+# 11. Write a function that takes an array and returns the first index of the array.
+
+const func = (array) => {
+    return array[0];
+
+# 12. Write function that takes an array of numbers and returns the sum of all of the numbers.
+
+const func = (array) => {
+    return array.reduce((a, b) => a + b, 0)
+
+# 13. Create an object with two properties and show two different ways to access them.
+
+const myObject = {
+    propertyOne: 1,
+    propertyTwo: 2
+}
+
+myObject.propertyOne;
+myObject.propertyTwo;
+
+# 14. Create a function that takes two numbers and returns the number of times that the first number is divisible by the second number.
+
+const func = (num1, num2) => {
+    return Math.floor(num2 / num1);
+}
+
+# 15. List three array methods.
+
+includes()
+map()
+reduce()
